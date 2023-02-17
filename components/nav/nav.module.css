@@ -1,0 +1,28 @@
+.contenedor{
+    background-color: black;
+    width:auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listaContenedor{
+    display: flex;
+    align-items: center;
+
+
+    
+}
+.listaItem {
+    font-size: 1.3em;
+    color: white;
+    margin: 2em;
+    list-style: none;
+    transition: transform 0.5s;
+    text-decoration: none;
+}
+
+.listaItem:hover{
+    color: greenyellow;
+    transform: scale(1.5);
+}
